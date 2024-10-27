@@ -1,0 +1,126 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12vh;
+}
+.calculator{
+    color: white;
+    background-color: rgb(24, 41, 54);
+    padding: 10px;
+    width: 95%;
+    margin: 5px 0;
+}
+.calculator_btn {
+    color: white;
+    background-color: rgb(24, 41, 54);
+    padding: 10px;
+    width: 95%;
+}
+.calculator .screen {
+    height: 80px;
+    width: 95%;
+}
+#display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    background-color: rgb(24, 41, 54);
+    border: none;
+    color: white;
+    width: 95%;
+}
+.calculator .screen input {
+    font-size: 20px;
+    flex: 1;
+    text-align: right;
+}
+.calculator .rows {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.calculator .row1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.calculator .row2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.calculator .row3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.calculator .row4 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.calculator .row5 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.calculator .row1 .back{
+    background-color: rgb(15, 17, 31);
+    height: 24px;
+    width: 100%;
+    border-radius: 2px;
+    margin: 5px;
+    cursor: pointer;
+}
+#clear {
+    background-color: rgb(163, 174, 7);
+}
+#equal {
+    background-color: rgb(29, 121, 31);
+}
+#delete {
+    background-color: red;
+}
+.calculator .row2 .back{
+    background-color: rgb(15, 17, 31);
+    height: 24px;
+    width: 30px;
+    border-radius: 2px;
+    margin: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.calculator .row3 .back{
+    background-color: rgb(15, 17, 31);
+    height: 24px;
+    width: 30px;
+    border-radius: 2px;
+    margin: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.calculator .row4 .back{
+    background-color: rgb(15, 17, 31);
+    height: 24px;
+    width: 30px;
+    border-radius: 2px;
+    margin: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.calculator .row5 .back{
+    background-color: rgb(15, 17, 31);
+    height: 24px;
+    width: 30px;
+    border-radius: 2px;
+    margin: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.calculator .row5 .equal {
+    height: 24px;
+    width: 90px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/index.js"></script>
+    <title>myCalculator</title>
+</head>
+<body>
+    <main class="container calculator">
+        <div class="calculator screen">
+            <input type="text" name="display" id="display" />
+        </div>
+        <div class="calculator rows">
+            <div class="row1">
+                <div class="calculator_btn clear back" id="clear" onclick="display.value = ''">AC</div>
+                <div class="calculator_btn delete back" id="delete" onclick="display.value = display.value.toString().slice(0, -1)">DE</div>
+                <div class="calculator_btn dot back" onclick="display.value += '.'">.</div>
+                <div class="calculator_btn division back" onclick="display.value += '/'">/</div>
+            </div>
+            <div class="row2">
+                <div class="calculator_btn number7 back" id="number7" onclick="display.value += '7'">7</div>
+                <div class="calculator_btn number8 back" onclick="display.value += '8'">8</div>
+                <div class="calculator_btn number9 back" onclick="display.value += '9'">9</div>
+                <div class="calculator_btn multiplication back" onclick="display.value += '*'">*</div>
+            </div>
+            <div class="row3">
+                <div class="calculator_btn number4 back" onclick="display.value += '4'">4</div>
+                <div class="calculator_btn number5 back" onclick="display.value += '5'">5</div>
+                <div class="calculator_btn number6 back" onclick="display.value += '6'">6</div>
+                <div class="calculator_btn substraction back" onclick="display.value += '-'">-</div>
+            </div>
+            <div class="row4">
+                <div class="calculator_btn number1 back" onclick="display.value += '1'">1</div>
+                <div class="calculator_btn number2 back" onclick="display.value += '2'">2</div>
+                <div class="calculator_btn number3 back" onclick="display.value += '3'">3</div>
+                <div class="calculator_btn addition back" onclick="display.value += '+'">+</div>
+            </div>
+            <div class="row5">
+                <div class="calculator_btn number00 back" onclick="display.value += '00'">00</div>
+                <div class="calculator_btn number0 back" onclick="display.value += '0'">0</div>
+                <div class="calculator_btn equal back" id="equal" onclick="display.value = eval(display.value)">=</div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
